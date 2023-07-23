@@ -2,6 +2,15 @@
 
 This template is a fork. Link to the original template by user w3cj: [Link](https://github.com/w3cj/express-api-starter)
 
+Differences with the original template:
+
+* Add editorconfig file.
+* Add compression middleware.
+* Replace nodemon with the parameter of node --watch.
+* Add Prettier config file.
+* Simplify eslint configuration.
+* Use ECMAScript Modules.
+
 Includes API Server utilities:
 
 * [compression](https://www.npmjs.com/package/compression)
