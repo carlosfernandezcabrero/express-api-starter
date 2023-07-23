@@ -1,10 +1,6 @@
 # Express API Starter
 
-How to use this template:
-
-```sh
-npx create-express-api --directory my-api-name
-```
+This template is a fork. Link to the original template by user w3cj: [Link](https://github.com/w3cj/express-api-starter)
 
 Includes API Server utilities:
 
@@ -19,8 +15,6 @@ Includes API Server utilities:
 
 Development utilities:
 
-* [nodemon](https://www.npmjs.com/package/nodemon)
-  * nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
 * [eslint](https://www.npmjs.com/package/eslint)
   * ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
 * [jest](https://www.npmjs.com/package/jest)
@@ -30,24 +24,24 @@ Development utilities:
 
 ## Setup
 
-```
+``` bash
 npm install
 ```
 
 ## Lint
 
-```
+``` bash
 npm run lint
 ```
 
 ## Test
 
-```
+``` bash
 npm test
 ```
 
 ## Development
 
-```
+``` bash
 npm run dev
 ```
