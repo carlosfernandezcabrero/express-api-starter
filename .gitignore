@@ -76,3 +76,6 @@ typings/
 package-lock.json
 pnpm-lock.yaml
 yarn.lock
+
+# Editors files
+.vscode/
