@@ -12,7 +12,7 @@ dotenv.config()
 const app = express()
 
 app.use(compression())
-app.use(morgan('dev'))
+app.use(morgan(process.env.NODE_ENV === 'production' ? 'common' : 'dev'))
 app.use(helmet())
 app.use(cors())
 app.use(express.json())
