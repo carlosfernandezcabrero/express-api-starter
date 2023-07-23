@@ -1,13 +1,14 @@
 {
   "name": "express-api-starter",
   "version": "1.2.0",
+  "type": "module",
   "description": "A basic starter for an express.js API",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
     "dev": "node --watch src src/index.js",
     "lint": "eslint --fix src",
-    "test": "jest"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "keywords": [],
   "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
@@ -33,6 +34,9 @@
     "extends": "./node_modules/standard/eslintrc.json",
     "rules": {
       "space-before-function-paren": "off"
+    },
+    "env": {
+      "jest/globals": true
     }
   }
 }

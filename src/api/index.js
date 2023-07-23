@@ -1,15 +1,14 @@
-const express = require('express');
+import express from 'express'
+import emojis from './emojis.js'
 
-const emojis = require('./emojis');
-
-const router = express.Router();
+const router = express.Router()
 
 router.get('/', (req, res) => {
   res.json({
-    message: 'API - 👋🌎🌍🌏',
-  });
-});
+    message: 'API - 👋🌎🌍🌏'
+  })
+})
 
-router.use('/emojis', emojis);
+router.use('/emojis', emojis)
 
-module.exports = router;
+export default router
