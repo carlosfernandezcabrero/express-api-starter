@@ -3,7 +3,6 @@
   "version": "1.2.0",
   "type": "module",
   "description": "A basic starter for an express.js API",
-  "main": "index.js",
   "scripts": {
     "start": "NODE_ENV=production node src/index.js",
     "dev": "NODE_ENV=development node --watch src src/index.js",
@@ -11,11 +10,6 @@
     "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "keywords": [],
-  "author": "CJ R. <cj@null.computer> (https://w3cj.now.sh)",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/w3cj/express-api-starter.git"
-  },
   "license": "MIT",
   "dependencies": {
     "compression": "1.7.4",
