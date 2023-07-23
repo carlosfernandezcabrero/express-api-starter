@@ -36,23 +36,23 @@ Development utilities:
 ## Setup
 
 ``` bash
-npm install
+[npm|pnpm|yarn] install
 ```
 
 ## Lint
 
 ``` bash
-npm run lint
+[npm|pnpm|yarn] run lint
 ```
 
 ## Test
 
 ``` bash
-npm test
+[npm|pnpm|yarn] test
 ```
 
 ## Development
 
 ``` bash
-npm run dev
+[npm|pnpm|yarn] run dev
 ```
