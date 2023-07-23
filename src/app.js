@@ -1,3 +1,4 @@
+import compression from 'compression'
 import cors from 'cors'
 import dotenv from 'dotenv'
 import express from 'express'
@@ -10,6 +11,7 @@ dotenv.config()
 
 const app = express()
 
+app.use(compression())
 app.use(morgan('dev'))
 app.use(helmet())
 app.use(cors())

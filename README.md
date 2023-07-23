@@ -4,6 +4,8 @@ This template is a fork. Link to the original template by user w3cj: [Link](http
 
 Includes API Server utilities:
 
+* [compression](https://www.npmjs.com/package/compression)
+  * Node.js compression middleware
 * [morgan](https://www.npmjs.com/package/morgan)
   * HTTP request logger middleware for node.js
 * [helmet](https://www.npmjs.com/package/helmet)
