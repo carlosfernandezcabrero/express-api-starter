@@ -11,6 +11,8 @@ dotenv.config()
 
 const app = express()
 
+app.disable('x-powered-by') // se desactiva por seguridad, para no dar pistas de que tecnología se esta usando
+
 app.use(compression())
 app.use(morgan(process.env.NODE_ENV === 'production' ? 'common' : 'dev'))
 app.use(helmet())
