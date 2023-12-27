@@ -1,7 +1,6 @@
 function notFound(req, res, next) {
   res.status(404)
-  const error = new Error(`🔍 - Not Found - ${req.originalUrl}`)
-  next(error)
+  next({ message: `🔍 - Not Found - ${req.originalUrl}` })
 }
 
 /* eslint-disable no-unused-vars */
